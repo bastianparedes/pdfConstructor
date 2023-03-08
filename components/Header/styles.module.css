@@ -1,0 +1,15 @@
+
+.header {
+    height: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style:  none none solid none;
+}
+
+.header-tittle {
+
+}
