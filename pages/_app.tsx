@@ -5,14 +5,14 @@ import Head from 'next/head';
 import 'bastianparedes/styles/global.css';
 import 'bastianparedes/styles/normalize.css';
 import '../styles/general.css';
-import { basePath } from '../next.config';
+import nextConfig from '../next.config';
 
 const _App = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link href={basePath + '/favicon.ico'} rel="icon" />
+        <link href={nextConfig.basePath + '/favicon.ico'} rel="icon" />
         <title>Bastián Paredes</title>
       </Head>
       <Component {...pageProps} />
